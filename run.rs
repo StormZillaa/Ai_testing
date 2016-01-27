@@ -23,5 +23,6 @@ fn run(x:i32) -> bool{
       if(x == 50){
         return false;
       }
+     println!("{}",x);
     }
   }
