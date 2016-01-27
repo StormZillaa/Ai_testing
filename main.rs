@@ -11,4 +11,6 @@ fn main() -> int{
         active = true;
         }
     }
+  println!("we have ended");
+  return 0;
 }
