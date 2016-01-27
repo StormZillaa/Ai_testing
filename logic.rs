@@ -1,4 +1,4 @@
-fn logic(x:i32,name:bool,times:i32) -> bool{
+fn logic(x:i32,times:i32) -> bool{
   if(x<50 && times < 3){
   bool = false;
   }
