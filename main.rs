@@ -1,4 +1,3 @@
-mod 
 fn main() -> int{
   let x:i32 = 25;
   let active = true;
@@ -14,3 +13,30 @@ fn main() -> int{
   println!("we have ended");
   return 0;
 }
+fn run(x:i32) -> bool{
+  let on:bool = true;
+    let add:bool = subtr:bool = mult:bool = divd:bool = true;
+    let adt:i32 = subt:i32 = multt:i32 = divt:i32 = 0;
+  while(on == true){
+      if(x/2 == int(x/2) && divd == true){
+        x = x/2;
+        divd = logic(x, divt, divd);
+      }
+      if(x > 50 && subtr == true){
+        x = x - 1;
+        subtr = logci(x, subt, subtr);
+      }
+      if(x < 50 && add == true){
+        x = x + 1;
+        add = logic(x, adt, add);
+      }
+      if(x*2 > 10 && mult == true){
+        x = x*2;
+        mult = logic(x, multt, mult);
+      }
+      if(x == 50){
+        return false;
+      }
+     println!("{}",x);
+    }
+  }
