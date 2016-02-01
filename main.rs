@@ -8,9 +8,15 @@ fn logic(x:i32,times:i32,name:bool) -> bool{
   logic(x,times,name);
   }
 fn run(x:i32) -> bool{
-  let on:bool = true;
-    let add:bool = subtr:bool = mult:bool = divd:bool = true;
-    let adt:i32 = subt:i32 = multt:i32 = divt:i32 = 0;
+  let on = true;
+    let add = true;
+    let subtr = true;
+    let mult = true; 
+    let divd = true;
+    let adt = 0; 
+    subt = 0;
+    multt = 0;
+    divt = 0;
   while on == true {
       if x/2 > 1 && divd == true{
         x = x/2;
