@@ -14,9 +14,9 @@ fn run(x:i32) -> bool{
     let mult = true; 
     let divd = true;
     let adt = 0; 
-    subt = 0;
-    multt = 0;
-    divt = 0;
+    let subt = 0;
+    let multt = 0;
+    let divt = 0;
   while on == true {
       if x/2 > 1 && divd == true{
         x = x/2;
